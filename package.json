@@ -1,0 +1,23 @@
+{
+  "name": "whip_up",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Katie Xu",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-nightly.2414",
+    "@parcel/transformer-sass": "^2.0.0-nightly.792",
+    "parcel": "^2.0.0-nightly.790"
+  },
+  "dependencies": {
+    "core-js": "^3.15.2",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.36.0"
+  }
+}
